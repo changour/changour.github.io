@@ -1,0 +1,174 @@
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.row-header {
+	margin: 0px auto;
+	padding: 0px 0px;
+}
+
+.row-content {
+	margin: 0px auto;
+	padding: 50px 0px;
+	border-bottom: 1px ridge;
+	min-height: 400px;
+}
+
+.row-footer {
+	padding: 20px 0px;
+	background-color: #1C1C1C;
+	color: snow;
+	clear: both
+}
+
+header {
+	background: linear-gradient(to bottom, #990f5c, #460a2b);
+	color: floralwhite;
+}
+
+
+
+
+.carousel-inner > .item > img {
+	margin: 0 auto;
+}
+
+.carousel {
+	float: left;
+	margin-right: 15px
+}
+
+.navbar-inverse {
+	background:#474A51;
+/*	color: #ffffff;*/
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background: #1C1C1C;
+/*	color: #ffffff;*/
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background: #403A3A;
+/*	color: #ffffff;*/
+}
+
+.navbar-inverse .navbar-nav > .active > a:focus {
+	background: #1C1C1C;
+/*	color: #ffffff;*/
+}
+
+
+
+
+
+address {
+	color: #ffffff;
+	font-size: 80%;
+	margin: 0px;
+}
+
+body {
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+}
+
+.affix {
+	top: 100px;
+}
+
+#carouselButtons {
+	bottom: 0px;
+	position: absolute;
+	right: 0px;
+}
+
+.carousel1>.carousel-inner>.item>img {
+	width: 505px;
+	height: 338px
+}
+
+
+/*hacer que se pueda hacer click en todo el panel*/
+
+.panel-title a {
+	display: block;
+	padding: 10px 15px;
+	margin: -10px -15px;
+}
+
+.panel > .panel-heading {
+	border: none;
+	color:aliceblue;
+	background-image: none;
+	background-color: #45322E;
+}
+
+.accordion-inner .panel-heading{
+	background-color: #633A34	;
+}
+
+.panel {
+	background-color: transparent;
+	border: none;
+}
+
+.tab-pane img {
+	float: left;
+}
+
+.nav-pills li a {
+	text-align: right;
+	border-top-right-radius: 40px;
+	background: linear-gradient(to right, white, grey);
+	margin-bottom: 20px;
+	border: none;
+	color: snow;
+	z-index: 1;
+}
+
+.nav-pills li.active a {
+	background: linear-gradient(to right, white, black);
+}
+
+
+.logotipo {
+	border-top: 1px solid;
+	border-bottom: 3px solid;
+	padding-bottom: 5px;
+	width: 100%;
+	border-color: black;
+	background: linear-gradient(to bottom, #8a0d4f, #5c0e38);
+	overflow: hidden
+}
+
+.tab-content {
+	display: table
+}
+
+.tab-pane {
+	display: table-row;
+}
+
+.columna {
+	background: linear-gradient(to top, #990f5c, #460a2b);
+	z-index: -1;
+	background-size: cover;
+	display: table-cell;
+	float: none;
+}
+
+.seccion {
+	
+	background: url("../img/priscem_03.png");
+	background-size: cover;
+	display: table-cell;
+	float: none;
+}
+
+@media (min-width: 1200px) {
+	.seccion{min-width: 600px;
+		padding: 10px;
+	}
+}
