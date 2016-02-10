@@ -33,7 +33,7 @@ $(function () {
 	});
 	//   en vista de movil cierra la nav-bar superior cuando se selecciona un enlace
 
-	$('#navbar,#contenido').on('click', '.navbar-collapse.in', function (e) {
+	$(document).on('click', '.navbar-collapse.in', function (e) {
 		if ($(e.target).is('a')) {
 			$(this).collapse('hide');
 			$(window).scrollTop(0);
