@@ -172,12 +172,14 @@ border:10px;
 	background-size: cover;
 }
 
+/*
 @media (min-width: 1000px) {
 	#wrapper-contenido img{
 	width: 120%;
 	height: auto
 }
 }
+*/
 
 @media (min-width: 1600px) {
 body{font-size: 20px}
