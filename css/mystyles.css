@@ -118,6 +118,9 @@ body {
 	float: left;
 }
 
+
+	
+
 .nav-pills li a {
 	text-align: right;
 	border-top-right-radius: 40px;
@@ -127,7 +130,7 @@ body {
 	color: snow;
 	z-index: 1;
 	width: 150%;
-	left: -60%
+	left: -60%;
 }
 
 .nav-pills li.active a {
@@ -163,23 +166,20 @@ border:10px;
 	background: linear-gradient(to top, #990f5c, #460a2b);
 	background-size: cover;
 	display: table-cell;
+	vertical-align: top;
 	float: none;
 }
 
 .seccion {
-	
 	background: url("../img/priscem_03.png");
 	background-size: cover;
 }
 
-/*
 @media (min-width: 1000px) {
-	#wrapper-contenido img{
-	width: 120%;
-	height: auto
+	.seccion {
+	min-width: 50em;
 }
 }
-*/
 
 @media (min-width: 1600px) {
 body{font-size: 20px}
